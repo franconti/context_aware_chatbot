@@ -1,5 +1,5 @@
 streamlit
-%pip install langchain
-%pip install langchain-openai
-%pip install jq
-%pip install faiss-cpu
+langchain
+langchain-openai
+jq
+faiss-cpu
