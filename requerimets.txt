@@ -1,17 +1,5 @@
-openai
-streamlit
-audio-recorder-streamlit
-matplotlib
-pillow
-langchain
-langchain-openai
-langchain-experimental
-langchain-google-genai==1.0.3
-langchain-google-community==1.0.3
-langsmith
-pypdf
-docx2txt
-faiss-cpu
-tiktoken
-arxiv
-wikipedia
+
+%pip install langchain
+%pip install langchain-openai
+%pip install jq
+%pip install faiss-cpu
