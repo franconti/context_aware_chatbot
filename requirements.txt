@@ -1,8 +1,8 @@
 streamlit
 openai
 langchain
-langchain_community
-langchain_core
+langchain-community
+langchain-core
 langchain-openai
 jq
 faiss-cpu
