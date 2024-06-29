@@ -1,10 +1,7 @@
-apify_client==1.6.4
-cohere==5.2.2
-deeplake==3.9.0
-langchain==0.1.14
-langchain-community==0.0.31
-langchain-cohere==0.1.0
-langchain_openai==0.1.8
-openai==1.16.2
-tiktoken==0.6.0
-streamlit==1.33.0
+streamlit
+openai
+langchain
+langchain-openai
+langchain-community
+jq
+faiss-cpu
