@@ -1,8 +1,5 @@
-streamlit
-langchain
-langchain_openai
-langchain_community
-faiss-cpu
-pydantic
-openai
-jq
+langchain==0.2.6
+langchain_community==0.2.6
+langchain_core==0.2.10
+langchain_openai==0.1.13
+streamlit==1.36.0
