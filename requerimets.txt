@@ -1,0 +1,5 @@
+﻿langchain
+langchain-openai
+jq
+faiss-cpu
+streamlite
