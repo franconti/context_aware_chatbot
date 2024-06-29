@@ -1,7 +1,7 @@
 ﻿langchain
 jq
 streamlit==1.22.0
-langchain-openai
+langchain-openai==0.1.8
 langchain_community
 langchain_core
 faiss-cpu
