@@ -15,8 +15,8 @@ from pprint import pprint
 
 
 
-st.title("💬 Laboratory company Chatbot")
-st.caption("chatbot that answers questions about UV detector catalog ")
+st.title("💬 Laboratory Company Chatbot")
+st.caption("Chatbot that answers questions about UV detector catalog ")
 
 # Sidebar for API key input
 with st.sidebar:
