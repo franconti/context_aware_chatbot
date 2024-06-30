@@ -9,22 +9,20 @@ from langchain_core.prompts import MessagesPlaceholder
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
-
 import json
 from pathlib import Path
 from pprint import pprint
 
 
 
-st.title("💬 Recipies Chatbot")
-st.caption("🚀 A Streamlit chatbot powered by LangChain and OpenAI")
+st.title("💬 Laboratory company Chatbot")
+st.caption("chatbot that answers questions about the UV detector catalog ")
 
 # Sidebar for API key input
 with st.sidebar:
     OPENAI_API_KEY = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
     "[View the source code](https://github.com/franconti/context_aware_chatbot)"
-    "[Open in recipies database](https://www.kaggle.com/datasets/crispen5gar/recipes3k)"
 
 # Check for API key
 if not OPENAI_API_KEY:
@@ -40,8 +38,8 @@ llm = ChatOpenAI(openai_api_key= OPENAI_API_KEY, model_name="gpt-3.5-turbo")
 
 # Load and process the data
 loader = JSONLoader(
-    file_path='health_corto.json',
-    jq_schema='.[]',
+    file_path='UVdetectors.json',
+    jq_schema='.UVDetectors.models[]',
     text_content=False)
 docs = loader.load()
 
@@ -63,9 +61,9 @@ retriever_chain = create_history_aware_retriever(llm, retriever, retrieval_chain
 # Create the document chain
 document_chain_prompt = ChatPromptTemplate.from_messages([
     ("system",
-     "This is a chatbot for healthy food.\
-      The chatbot's goal is to provide information and assistance to people looking for healthy recipes. \
-      The chatbot should decline to answer any question not related to this goal. \
+     "This is a chatbot for BiologyArte, a laboratory supplies company.\
+      The chatbot's goal is to provide information and assistance to potential and existing BiologyArte customers.. \
+      The chatbot should decline to answer any question not related to the company goal. \
       The chatbot should be friendly, polite, and helpful. \
       The chatbot should refer the user to the official website or a human representative if it cannot answer the question or handle the request. \
       Answer the user's questions based on the below context:\n\n{context}"),
