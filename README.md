@@ -1,7 +1,8 @@
-# Chatbot powered by LangChain, OpenAI and Streamlit.
+# Chatbot for UV detectors seller powered by LangChain, OpenAI and Streamlit.
 
 ## Overview
-This code sets up a chatbot powered by OpenAI model to assist with queries related to specific documents.
+This code sets up a chatbot powered by OpenAI model to assist with queries related to specific documents. In this case, It utilizes a JSON file containing fictional data that describes various models of UV detectors, detailing their specifications and technical information.
+
 It starts by setting the OpenAI API key and initializing the ChatOpenAI component. Then, it loads the data from a JSON file, processes this data by splitting it into manageable text chunks, and embeds these chunks using OpenAI embeddings. 
 The embeddings are stored in a FAISS vector database, which enables efficient similarity search and retrieval of relevant documents. 
 A retriever is created to query this vector database, allowing the chatbot to get pertinent information based on user input, conversation history and relevant documents. 
@@ -35,6 +36,18 @@ A retriever is created to query this vector database, allowing the chatbot to ge
 
 2. **Input your OpenAI API Key** in the sidebar.
 
-3. **Interact with the chatbot**: Type your questions in the chat input, and the bot will respond based on the conversation history and retrieved documents.
+3. **Interact with the chatbot**: Type your questions related to UV detectors in the chat input, and the bot will respond based on the conversation history and retrieved documents.
+
+
+
+
+## References:
+
+https://github.com/BelgiAmir/TenMinutesChatbot/blob/main/LangChain%20Demo.ipynb
+
+https://streamlit.io/
+
+https://www.langchain.com/
+
 
 
