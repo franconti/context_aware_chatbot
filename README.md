@@ -1,4 +1,5 @@
-# Chatbot for UV detectors seller powered by LangChain, OpenAI and Streamlit.
+# Context aware chatbot 
+Chatbot for a UV detectors seller powered by LangChain, OpenAI and Streamlit.
 
 ## Overview
 This code sets up a chatbot powered by OpenAI model to assist with queries related to specific documents. In this case, It utilizes a JSON file containing fictional data that describes various models of UV detectors, detailing their specifications and technical information.
