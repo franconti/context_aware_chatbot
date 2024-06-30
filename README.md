@@ -18,20 +18,20 @@ A retriever is created to query this vector database, allowing the chatbot to ge
 
 1. **Clone the repository**:
     
-  git clone https://github.com/franconti/context_aware_chatbot.git
-  cd recipes-chatbot
+      git clone https://github.com/franconti/context_aware_chatbot.git
+      cd recipes-chatbot
 
 
 2. **Install dependencies**:
 
-  pip install -r requirements.txt
+      pip install -r requirements.txt
 
 
 ## Usage
 
 1. **Run the Streamlit application**:
    
-   streamlit run context_aware_chatbot.py
+       streamlit run context_aware_chatbot.py
 
 2. **Input your OpenAI API Key** in the sidebar.
 
