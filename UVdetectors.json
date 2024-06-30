@@ -1,0 +1,147 @@
+{
+    "UVDetectors": {
+      "models": [
+        {
+          "name": "UV-1800",
+          "type": "Spectrophotometer",
+          "starting_price": "$4,500",
+          "wavelength_range": "190 - 1100 nm",
+          "resolution": "0.1 nm",
+          "accuracy": "±0.5 nm",
+          "features": ["User-friendly Interface", "High Sensitivity", "Multiple Measurement Modes", "Built-in Software"],
+          "light_source": "Deuterium Lamp, Tungsten-Halogen Lamp",
+          "sample_compartment": "Single Cell Holder, Optional Multicell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "500 x 450 x 220 mm",
+          "weight": "15 kg"
+        },
+        {
+          "name": "UV-2450",
+          "type": "UV-Vis Spectrophotometer",
+          "starting_price": "$7,000",
+          "wavelength_range": "190 - 900 nm",
+          "resolution": "0.05 nm",
+          "accuracy": "±0.3 nm",
+          "features": ["Touchscreen Display", "Enhanced Stability", "Multiple Accessories", "Automatic Calibration"],
+          "light_source": "Xenon Lamp",
+          "sample_compartment": "Built-in Peltier System for Temperature Control",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "550 x 480 x 240 mm",
+          "weight": "18 kg"
+        },
+        {
+          "name": "UV-Vis 3000",
+          "type": "UV-Vis Spectrophotometer",
+          "starting_price": "$5,800",
+          "wavelength_range": "200 - 800 nm",
+          "resolution": "0.1 nm",
+          "accuracy": "±0.2 nm",
+          "features": ["Advanced Optical System", "User-friendly Software", "Quick Scan Function", "Portable Design"],
+          "light_source": "Deuterium Lamp",
+          "sample_compartment": "Single Cell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "450 x 400 x 200 mm",
+          "weight": "12 kg"
+        },
+        {
+          "name": "UV-9000",
+          "type": "UV-Vis-NIR Spectrophotometer",
+          "starting_price": "$12,000",
+          "wavelength_range": "175 - 3300 nm",
+          "resolution": "0.02 nm",
+          "accuracy": "±0.1 nm",
+          "features": ["Wide Wavelength Range", "High Resolution", "Automatic Wavelength Calibration", "User-friendly Interface"],
+          "light_source": "Deuterium Lamp, Halogen Lamp",
+          "sample_compartment": "Single Cell Holder, Optional Multicell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "600 x 500 x 300 mm",
+          "weight": "22 kg"
+        },
+        {
+          "name": "UV-7600",
+          "type": "Spectrophotometer",
+          "starting_price": "$6,000",
+          "wavelength_range": "190 - 1100 nm",
+          "resolution": "0.1 nm",
+          "accuracy": "±0.5 nm",
+          "features": ["Dual Beam Design", "Wide Wavelength Range", "Multiple Measurement Modes", "PC Control"],
+          "light_source": "Deuterium Lamp, Tungsten-Halogen Lamp",
+          "sample_compartment": "Single Cell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "520 x 450 x 230 mm",
+          "weight": "17 kg"
+        },
+        {
+          "name": "UV-2800",
+          "type": "UV-Vis Spectrophotometer",
+          "starting_price": "$8,500",
+          "wavelength_range": "190 - 900 nm",
+          "resolution": "0.05 nm",
+          "accuracy": "±0.2 nm",
+          "features": ["Touchscreen Interface", "Enhanced Sensitivity", "Automated Performance Verification", "Temperature Control"],
+          "light_source": "Xenon Lamp",
+          "sample_compartment": "Peltier System",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "570 x 490 x 250 mm",
+          "weight": "20 kg"
+        },
+        {
+          "name": "UV-4500",
+          "type": "UV-Vis-NIR Spectrophotometer",
+          "starting_price": "$11,000",
+          "wavelength_range": "190 - 3200 nm",
+          "resolution": "0.02 nm",
+          "accuracy": "±0.1 nm",
+          "features": ["Broad Wavelength Coverage", "High Precision", "Advanced Software", "Automatic Baseline Calibration"],
+          "light_source": "Deuterium Lamp, Halogen Lamp",
+          "sample_compartment": "Multicell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "610 x 510 x 310 mm",
+          "weight": "25 kg"
+        },
+        {
+          "name": "UV-7000",
+          "type": "Spectrophotometer",
+          "starting_price": "$9,000",
+          "wavelength_range": "200 - 900 nm",
+          "resolution": "0.1 nm",
+          "accuracy": "±0.3 nm",
+          "features": ["High Stability", "Fast Scan Speed", "Multi-language Support", "User-friendly Interface"],
+          "light_source": "Xenon Lamp",
+          "sample_compartment": "Single Cell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "560 x 470 x 240 mm",
+          "weight": "19 kg"
+        },
+        {
+          "name": "UV-9200",
+          "type": "UV-Vis Spectrophotometer",
+          "starting_price": "$10,000",
+          "wavelength_range": "190 - 1000 nm",
+          "resolution": "0.05 nm",
+          "accuracy": "±0.2 nm",
+          "features": ["High Resolution", "Automated Calibration", "Advanced Data Management", "Temperature Control"],
+          "light_source": "Deuterium Lamp, Tungsten-Halogen Lamp",
+          "sample_compartment": "Peltier System",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "590 x 480 x 260 mm",
+          "weight": "21 kg"
+        },
+        {
+          "name": "UV-5000",
+          "type": "Spectrophotometer",
+          "starting_price": "$7,500",
+          "wavelength_range": "200 - 900 nm",
+          "resolution": "0.1 nm",
+          "accuracy": "±0.3 nm",
+          "features": ["Enhanced Sensitivity", "Quick Start-up", "PC Control", "User-friendly Interface"],
+          "light_source": "Xenon Lamp",
+          "sample_compartment": "Single Cell Holder",
+          "power_requirements": "110/220 V, 50/60 Hz",
+          "dimensions": "530 x 460 x 230 mm",
+          "weight": "16 kg"
+        }
+      ]
+    }
+  }
+  
