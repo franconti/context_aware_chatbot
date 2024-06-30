@@ -50,5 +50,7 @@ https://streamlit.io/
 
 https://www.langchain.com/
 
+https://medium.com/@ahmed.mohiuddin.architecture/using-ai-to-chat-with-your-documents-leveraging-langchain-faiss-and-openai-3281acfcc4e9
+
 
 
