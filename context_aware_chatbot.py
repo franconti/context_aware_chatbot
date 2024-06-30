@@ -23,7 +23,7 @@ st.caption("🚀 A Streamlit chatbot powered by LangChain and OpenAI")
 with st.sidebar:
     OPENAI_API_KEY = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/franconti)"
+    "[View the source code](https://github.com/franconti/context_aware_chatbot)"
     "[Open in recipies database](https://www.kaggle.com/datasets/crispen5gar/recipes3k)"
 
 # Check for API key
