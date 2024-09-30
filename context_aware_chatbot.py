@@ -26,7 +26,7 @@ with st.sidebar:
 
 # Check for API key
 if not OPENAI_API_KEY:
-    st.info("Please add your OpenAI API key to continue.")
+    st.info("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")
     st.stop()
 
 # Set the OpenAI API key
